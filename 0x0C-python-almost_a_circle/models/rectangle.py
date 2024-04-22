@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-Rectangle module
+rectangle module
 """
 from base import Base
 
 
-class Rectangle(Base):
+class rectangle(Base):
     """
-    Rectangle class
+    rectangle class
     """
     def __init__(self, width, height, x=0, y=0, id=None):
             super().__init__(id)
